@@ -1,0 +1,22 @@
+{
+  "name": "ormdata",
+  "version": "1.0.0",
+  "description": "mysql data and orm",
+  "main": "index.js",
+  "scripts": {
+    "test": "no test specified"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/herry-deng/web-note.git"
+  },
+  "keywords": [
+    "git"
+  ],
+  "author": "herry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herry-deng/web-note/issues"
+  },
+  "homepage": "https://github.com/herry-deng/web-note#readme"
+}

@@ -7,3 +7,6 @@ web note and node
 		mysql
 		mysql2
 			mysql-native
+
+
+https://github.com/sidorares/node-mysql2

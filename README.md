@@ -10,3 +10,5 @@ web note and node
 
 
 https://github.com/sidorares/node-mysql2
+
+https://github.com/demopark/sequelize-docs-Zh-CN

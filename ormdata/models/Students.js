@@ -1,6 +1,6 @@
 const sequelize = require("./db");
 const { DataTypes } = require("sequelize");
-
+const moment = require("moment");
 // 创建一个模型对象
 module.exports = sequelize.define("Student", { // const 定义一个模型变量
     name: {
@@ -10,7 +10,18 @@ module.exports = sequelize.define("Student", { // const 定义一个模型变量
     birthday: {
         type: DataTypes.DATE,
         allowNull: false,
-    },
+        get() { //访问器
+          return this.getDataValue("birthday").getTime();
+        },
+      },
+      age: { //虚拟字段
+        type: DataTypes.VIRTUAL,
+        get() {
+          const now = moment.utc();
+          const birth = moment.utc(this.birthday);
+          return now.diff(birth, "y"); //得到两个日期的年份的差异
+        },
+      },
     sex: {
         type: DataTypes.BOOLEAN,
         allowNull: false,

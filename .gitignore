@@ -1,5 +1,8 @@
 .DS_Store
 node_modules/
+temp/
+~*.ppt*
+logs/*
 platforms/
 dist/
 npm-debug.log*

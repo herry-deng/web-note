@@ -51,3 +51,44 @@ npm i sequelize mysql2
 3. 数据库验证：
 
 命令 node mock/mockClass.js
+http://mockjs.com/
+
+数据查询
+	查询单个数据：findOne
+	按照主键查询单个数据：findByPK
+	查询多个数据：findAll
+	查询数量：count
+	包含关系：include   预加载
+
+3-8
+MD5加密： npm i md5    
+http://momentjs.cn/
+md5加密的特点
+	hash加密算法的一种
+	可以将任何一个字符串，加密成一个固定长度的字符串
+	单向加密：只能加密无法解密
+	同样的源字符串加密后得到的结果固定
+3-9
+moment    npm i moment
+http://mockjs.com/
+http://momentjs.cn/
+
+3-10 数据验证 validate.js
+npm i validate.js
+
+3-12 日志记录
+log4js
+https://log4js-node.github.io/log4js-node/
+npm i log4js
+
+
+express
+1 
+http://expressjs.com/
+https://www.expressjs.com.cn/
+npm i express
+
+
+
+监控文件code变化需要nodemon
+npm i -D nodemon
